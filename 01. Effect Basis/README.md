@@ -119,7 +119,7 @@ Effect.async<성공타입, 에러타입>((resume) => {
 });
 ```
 
-아래와 같이 취소 상황에서는 cleanup effect를 reutrn 합니다.
+아래와 같이 취소 상황에서는 cleanup effect를 return 합니다.
 
 ```tsx
 const writeFileWithCleanup = (filename: string, data: string) =>
